@@ -1,0 +1,62 @@
+body {
+    background-image: url('Images/USKT.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-panel {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.header {
+    color: rgb(0, 76, 139);
+    font-family: 'Arial', sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+.para {
+    color: rgb(63, 128, 189);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+
+.btn-custom {
+    background-color: #3c5e83;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-custom:hover{
+    color: burlywood;
+    background: transparent;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+  
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    color: burlywood;
+}
